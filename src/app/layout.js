@@ -1,5 +1,4 @@
 import React from "react";
-import ChatButton from "@/components/ChatButton/ChatButton";
 import "./globals.css";
 import { Inter, Red_Hat_Display } from "next/font/google";
 
@@ -13,7 +12,8 @@ const redHatDisplay = Red_Hat_Display({ subsets: ["latin"] });
 
 export const metadata = {
   title: "PPC",
-  description: "Prime Preparation Center",
+  description:
+    "Prime Preparation Center: Elevate your e-commerce with streamlined shipping and seamless marketplace integration.",
   icons: {
     icon: ["/favicon.ico"],
     apple: ["/apple-touch-icon.png"],

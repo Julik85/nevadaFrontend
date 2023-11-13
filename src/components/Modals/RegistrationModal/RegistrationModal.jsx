@@ -101,14 +101,21 @@ export default function RegistrationModal({ closeModal }) {
       <h2 className="text-center text-[24px] font-semibold mt-6 text-[#000A11] mb-[12px] rounded-[8px]">
         {titleModal}
       </h2>
-      <p className="text-[14px] text-captionalGrey w-[542px] text-center  mb-[32px] mx-auto">
+      <p
+        className="text-[14px] text-captionalGrey  text-center
+      w-[319px] md:-[523px] lg:w-[542px]  mb-[32px] mx-auto"
+      >
         Registering on our website is easy and quick. To get started, obtain
         your personal "Account Number" - a unique identifier that will grant you
         access to our services and benefits. To do this, please fill out the
         "Get a Quote" form.
       </p>
       <form onSubmit={handleSubmit}>
-        <div className="flex flex-col  lg:flex-row   justify-center items-center gap-[50px] px-[19px] mb-[48px]">
+        <div
+          className="flex flex-col  lg:flex-row   justify-center items-center 
+        
+        lg:gap-[50px] px-[19px] mb-[48px]"
+        >
           <div>
             <div className="mb-4">
               <label

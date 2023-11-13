@@ -15,13 +15,14 @@ module.exports = {
     extend: {
       colors: {
         mainBlack: "#000A11",
-
+        bgBoard: "#DFE4E8",
         captionalWhite: "#ECECEC",
         mainWhite: "#FAFCF8",
 
         captionalGrey: "#62686F",
         captionalGreyLight: "#C0C0C0",
         background: "#0B0A0A40",
+        userPanel: "#D9DFFF",
 
         darkBlue: "#021827",
         captionBlue: "#1478CE",
@@ -29,6 +30,8 @@ module.exports = {
 
         accentHoverYellow: "#C37E19",
         accentYellow: "#F8C951",
+
+        alertRed: "#F01010",
       },
       padding: {
         mobile: "80px",
